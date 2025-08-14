@@ -27,7 +27,7 @@ const handleLogin = async (e) => {
         return handleError('email and password are required')
     }
     try {
-        const url = `https://zerodha-backend-adoh.onrender.com/auth/login`;
+        const url = `https://zerodha-backend-hza1.onrender.com/auth/login`;
         const response = await fetch(url, {
             method: "POST",
             headers: {
@@ -42,7 +42,7 @@ const handleLogin = async (e) => {
             localStorage.setItem('token', jwtToken);
             localStorage.setItem('loggedInUser', name);
             setTimeout(() => {
-              window.location.href ='https://zerodha-dashboard-nsoh.onrender.com/';
+              window.location.href ='https://zerodha-dashboard-shru.onrender.com/';
               //window.location.href = `https://zerodha-dashboard-nsoh.onrender.com/?token=${jwtToken}&name=${encodeURIComponent(name)}`;
 
             }, 1000)
