@@ -107,6 +107,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import { ToastContainer } from 'react-toastify'
 import { handleError, handleSuccess } from '../Util'
 
+
 function Signup() {
   const [signupInfo, setSignupInfo] = useState({
     name: '',
