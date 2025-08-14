@@ -4,7 +4,8 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 
 import './index.css';
 import "react-toastify/dist/ReactToastify.css";
-import Homepage from './landing_page/Home/HomePage';
+import Homepage from './landing_page/Home/Homepage';
+
 
 
 
