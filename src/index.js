@@ -6,7 +6,7 @@ import './index.css';
 import "react-toastify/dist/ReactToastify.css";
 
 
-import Homepage from './landing_page/Home/Homepage.js';
+import Homepage from './landing_page/Home/HomePage';
 
 
 
