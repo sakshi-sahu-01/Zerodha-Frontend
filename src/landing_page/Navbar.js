@@ -20,7 +20,7 @@ function Navbar() {
       <div className="container">
         <Link className="navbar-brand" to={"/"} onClick={()=>setSelectMenu(0)}>
           <img
-            src="images/logo1.jpg"
+            src="media/images/logo (2).svg"
             style={{ width: "25%" }}
             alt="Logo"
           />

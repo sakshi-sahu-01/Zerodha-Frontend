@@ -9,7 +9,7 @@ function ProductPage() {
     return ( 
         <>
         <Hero />
-        <LeftSection imageUrl="images/kite.png"
+        <LeftSection imageUrl="media/images/kite (1).png"
         productName="Kite"
           productDescription={" Our ultra-flash flagship trading platefrom with streaming market data, advanced charts, an elegant UI, and more. Enjoy the kite experience seamlessly on your Android and iOS devices." }
           tryDemo=""
@@ -17,12 +17,12 @@ function ProductPage() {
           googlePlay=""
            appStore=""
            />
-        <RightSection imageUrl="images/console.png"
+        <RightSection imageUrl="media/images/console (2).png"
             productName="Console"
             productDescription={" The central dashboard for your Zerodha account. Gain insights intoo your trades and investment with in-depth reports and visualisation." }
             learnMore="" />
 
-        <LeftSection imageUrl="images/coin.png"
+        <LeftSection imageUrl="media/images/coin (1).png"
         productName="Coin"
           productDescription={" Buy direct mutual funds online, commission-free, delivered directly to your Demat account. Enjoy the investment experience on your Android and iOS devices." }
           tryDemo=""
@@ -30,12 +30,12 @@ function ProductPage() {
           googlePlay=""
            appStore=""
            />
-        <RightSection  imageUrl="images/kiteconnect.png"
+        <RightSection  imageUrl="media/images/kiteconnect.png"
             productName="Kite Connect API"
             productDescription={" Build poweful trading plateforms and experiences with our super simple HTTP/JSON APIs. If yor are a startup, build your investment app and showcase it to our clientbase." }
             learnMore=""/>
 
-        <LeftSection imageUrl="images/varsity.png"
+        <LeftSection imageUrl="media/images/varsity.png"
         productName="Varsity mobile"
           productDescription={"An easy to grasp, collection of stock market lessons with in-depth coverage and illustrrations. Content is broken down into bite-size cards to help you learn on the go. " }
           tryDemo=""
@@ -43,7 +43,7 @@ function ProductPage() {
           googlePlay=""
            appStore=""
            />
-        <p className='text-center mt-5 mb-5'>Want to know about our technology stack? Check out the StockTrade.tech blog.</p>
+        <p className='text-center mt-5 mb-5'>Want to know about our technology stack? Check out the Zerodha.tech blog.</p>
         <Universe />
         </>
      );

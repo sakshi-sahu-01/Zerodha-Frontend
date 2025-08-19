@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Notfound() {
+function NotFound() {
     return(
         <div className="container p-5 mb-5">
         <div className="row text-center">
@@ -13,4 +13,4 @@ function Notfound() {
     );
 }
 
-export default Notfound;
+export default NotFound;
