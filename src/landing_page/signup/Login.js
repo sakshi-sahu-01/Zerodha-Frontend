@@ -43,8 +43,7 @@ const handleLogin = async (e) => {
             localStorage.setItem('loggedInUser', name);
             setTimeout(() => {
               window.location.href ='https://zerodha-dashboard-shru.onrender.com/';
-              //window.location.href = `https://zerodha-dashboard-nsoh.onrender.com/?token=${jwtToken}&name=${encodeURIComponent(name)}`;
-
+             
             }, 1000)
         } else if (error) {
             const details = error?.details[0].message;
