@@ -21,7 +21,7 @@ import Footer from './landing_page/footer.js';
 
 
 
-import SignupPage from 'src/landing_page/signup/SignupPage';
+import SignupPage from './landing_page/signup/SignupPage';
 import LoginPage from './landing_page/signup/Login.js';
 import 'react-toastify/ReactToastify.css';
 
