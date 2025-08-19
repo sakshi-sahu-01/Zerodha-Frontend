@@ -16,7 +16,7 @@ import Support from "./landing_page/support/Support";
 import Notfound from './landing_page/Notfound';
 import Navbar from './landing_page/Navbar';
 
-import Footer from './landing_page/footer';
+import Footer from 'src/landing_page/footer';
 
 
 
