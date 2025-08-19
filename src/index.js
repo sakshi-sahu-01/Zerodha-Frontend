@@ -33,7 +33,7 @@ root.render(
     
      <Navbar />
   <Routes>
-    <Route path="/" element={<Homepage/>}></Route>
+    <Route path="/" element={<HomePage/>}></Route>
     <Route path="/signup/*" element={<SignupPage/>}></Route>
     <Route path="/Login/*" element={<LoginPage/>}></Route>
     <Route path="/about" element={<About/>}></Route>
