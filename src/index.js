@@ -9,7 +9,6 @@ import Homepage from './landing_page/Home/Homepage';
 
 
 
-
 import About from "./landing_page/about/About";
 import ProductPage from "./landing_page/products/ProductPage";
 import PricingPage from "./landing_page/pricing/PricingPage";
